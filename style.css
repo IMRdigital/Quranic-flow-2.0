@@ -335,3 +335,17 @@ opacity:1;
 transform:scale(2);
 }
 }
+.search-box{
+width:80%;
+max-width:500px;
+display:block;
+margin:20px auto;
+padding:15px;
+border:none;
+border-radius:12px;
+font-size:16px;
+background:#1B4332;
+color:white;
+outline:none;
+border:2px solid #D4AF37;
+}
