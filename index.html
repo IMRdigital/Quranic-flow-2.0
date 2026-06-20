@@ -313,5 +313,37 @@ ayahs[random].ref;
 
 newAyah();
 </script>
+<button onclick="topFunction()" id="topBtn">
+⬆
+</button>
+
+<script>
+
+let mybutton =
+document.getElementById("topBtn");
+
+window.onscroll = function() {
+
+if(document.body.scrollTop > 300 ||
+document.documentElement.scrollTop > 300){
+
+mybutton.style.display = "block";
+
+}else{
+
+mybutton.style.display = "none";
+
+}
+
+};
+
+function topFunction(){
+
+document.body.scrollTop = 0;
+document.documentElement.scrollTop = 0;
+
+}
+
+</script>
 </body>
 </html>
