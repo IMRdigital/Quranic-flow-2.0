@@ -54,11 +54,39 @@ h1{
 
 <script>
 function findMasjid(){
+
+if(navigator.geolocation){
+
+navigator.geolocation.getCurrentPosition(function(position){
+
+let lat = position.coords.latitude;
+let lon = position.coords.longitude;
+
 document.getElementById("result").innerHTML = `
-<div class="card">🕌 Nearby masjids feature coming soon</div>
-<div class="card">📍 Location permission detected</div>
-<div class="card">🚀 QuranicFlow Premium Update</div>
+<div class="card">
+📍 Your Location Found
+<br><br>
+Latitude: ${lat}
+<br>
+Longitude: ${lon}
+<br><br>
+<a href="https://www.google.com/maps/search/masjid/@${lat},${lon},15z"
+target="_blank"
+style="color:#D4AF37;font-weight:bold;">
+🕌 Open Nearby Masjids
+</a>
+</div>
 `;
+
+});
+
+}else{
+
+document.getElementById("result").innerHTML =
+"<div class='card'>❌ Geolocation not supported</div>";
+
+}
+
 }
 </script>
 
