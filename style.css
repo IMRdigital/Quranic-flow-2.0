@@ -313,7 +313,7 @@ height:4px;
 background:white;
 border-radius:50%;
 animation:twinkle 2s infinite;
-z-index:-1;
+z-index:1;
 }
 
 .stars span:nth-child(1){top:10%;left:15%;}
