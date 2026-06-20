@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nearby Masjid Finder | QuranicFlow</title>
+
+<style>
+body{
+    background:#081C15;
+    color:white;
+    font-family:Poppins,sans-serif;
+    text-align:center;
+    padding:30px;
+}
+
+h1{
+    color:#D4AF37;
+}
+
+.btn{
+    background:#D4AF37;
+    color:black;
+    padding:15px 25px;
+    border:none;
+    border-radius:12px;
+    font-size:18px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+#result{
+    margin-top:30px;
+}
+.card{
+    background:#1B4332;
+    padding:15px;
+    margin:15px 0;
+    border-radius:15px;
+}
+</style>
+</head>
+<body>
+
+<h1>🕌 Nearby Masjid Finder</h1>
+
+<p>Find masjids near your location</p>
+
+<button class="btn" onclick="findMasjid()">
+📍 Find Nearby Masjids
+</button>
+
+<div id="result"></div>
+
+<script>
+function findMasjid(){
+document.getElementById("result").innerHTML = `
+<div class="card">🕌 Nearby masjids feature coming soon</div>
+<div class="card">📍 Location permission detected</div>
+<div class="card">🚀 QuranicFlow Premium Update</div>
+`;
+}
+</script>
+
+</body>
+</html>
