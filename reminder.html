@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daily Reminder | QuranicFlow</title>
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+.reminder-card{
+max-width:800px;
+margin:30px auto;
+padding:25px;
+background:#1B4332;
+border-radius:20px;
+text-align:center;
+}
+
+.reminder-card h2{
+color:#D4AF37;
+margin-bottom:15px;
+}
+
+.reminder-btn{
+padding:12px 25px;
+border:none;
+border-radius:10px;
+background:#D4AF37;
+font-weight:bold;
+cursor:pointer;
+margin-top:20px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+<nav class="navbar">
+<div class="logo">☪ QuranicFlow</div>
+</nav>
+</header>
+
+<section class="section">
+
+<div class="reminder-card">
+<h2>📖 Daily Ayah</h2>
+<p id="ayah">
+Indeed, with hardship comes ease.
+</p>
+</div>
+
+<div class="reminder-card">
+<h2>📚 Daily Hadith</h2>
+<p id="hadith">
+The best of you are those who learn the Quran and teach it.
+</p>
+</div>
+
+<div class="reminder-card">
+<h2>🤲 Daily Dua</h2>
+<p id="dua">
+Rabbi Zidni Ilma
+(My Lord, increase me in knowledge)
+</p>
+</div>
+
+<div style="text-align:center;">
+<button class="reminder-btn" onclick="newReminder()">
+🔄 New Reminder
+</button>
+</div>
+
+</section>
+
+<script>
+const ayahs = [
+"Indeed, with hardship comes ease.",
+"And Allah is the best of planners.",
+"And He found you lost and guided you."
+];
+
+const hadiths = [
+"The best of you are those who learn the Quran and teach it.",
+"Actions are judged by intentions.",
+"Modesty is part of faith."
+];
+
+const duas = [
+"Rabbi Zidni Ilma",
+"Hasbunallahu Wa Ni'mal Wakeel",
+"Rabbana Atina Fid Dunya Hasanah"
+];
+
+function newReminder(){
+
+document.getElementById("ayah").innerText =
+ayahs[Math.floor(Math.random()*ayahs.length)];
+
+document.getElementById("hadith").innerText =
+hadiths[Math.floor(Math.random()*hadiths.length)];
+
+document.getElementById("dua").innerText =
+duas[Math.floor(Math.random()*duas.length)];
+
+}
+</script>
+
+</body>
+</html>
