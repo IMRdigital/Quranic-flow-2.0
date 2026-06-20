@@ -234,6 +234,41 @@ Read • Reflect • Remember Allah
 </p>
 
 </footer>
+<script>
+const ayahs = [
+{
+text:"And whoever puts their trust in Allah, then He is sufficient for them.",
+ref:"Surah At-Talaq 65:3"
+},
+{
+text:"Indeed, Allah is with the patient.",
+ref:"Surah Al-Baqarah 2:153"
+},
+{
+text:"So remember Me; I will remember you.",
+ref:"Surah Al-Baqarah 2:152"
+},
+{
+text:"Indeed, with hardship comes ease.",
+ref:"Surah Ash-Sharh 94:6"
+},
+{
+text:"Allah does not burden a soul beyond that it can bear.",
+ref:"Surah Al-Baqarah 2:286"
+}
+];
 
+function newAyah(){
+const random = Math.floor(Math.random() * ayahs.length);
+
+document.getElementById("ayahText").innerText =
+ayahs[random].text;
+
+document.getElementById("ayahRef").innerText =
+ayahs[random].ref;
+}
+
+newAyah();
+</script>
 </body>
 </html>
