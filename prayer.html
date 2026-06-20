@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prayer Times | QuranicFlow</title>
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+.prayer-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+padding:20px 8%;
+}
+
+.prayer-card{
+background:#1B4332;
+padding:25px;
+border-radius:20px;
+text-align:center;
+transition:.3s;
+}
+
+.prayer-card:hover{
+transform:translateY(-8px);
+}
+
+.prayer-name{
+font-size:24px;
+font-weight:700;
+color:#D4AF37;
+margin-bottom:10px;
+}
+
+.prayer-time{
+font-size:28px;
+font-weight:bold;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+<nav class="navbar">
+<div class="logo">☪ QuranicFlow</div>
+</nav>
+</header>
+
+<section class="section">
+
+<h2 class="section-title">
+🕌 Prayer Times
+</h2>
+
+<div class="prayer-grid">
+
+<div class="prayer-card">
+<div class="prayer-name">Fajr</div>
+<div class="prayer-time">05:00 AM</div>
+</div>
+
+<div class="prayer-card">
+<div class="prayer-name">Dhuhr</div>
+<div class="prayer-time">12:30 PM</div>
+</div>
+
+<div class="prayer-card">
+<div class="prayer-name">Asr</div>
+<div class="prayer-time">04:15 PM</div>
+</div>
+
+<div class="prayer-card">
+<div class="prayer-name">Maghrib</div>
+<div class="prayer-time">06:45 PM</div>
+</div>
+
+<div class="prayer-card">
+<div class="prayer-name">Isha</div>
+<div class="prayer-time">08:00 PM</div>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+<h3>☪ QuranicFlow</h3>
+<p>Read • Reflect • Remember Allah</p>
+</footer>
+
+</body>
+</html>
