@@ -8,9 +8,16 @@ box-sizing:border-box;
 font-family:'Poppins',sans-serif;
 scroll-behavior:smooth;
 }
-
 body{
-background:#081C15;
+background:
+radial-gradient(circle at top left,
+rgba(212,175,55,.05),
+transparent 250px),
+radial-gradient(circle at bottom right,
+rgba(212,175,55,.05),
+transparent 250px),
+#081C15;
+
 color:#fff;
 overflow-x:hidden;
 }
