@@ -71,7 +71,7 @@ font-weight:600;
 /* Hero */
 
 .hero{
-min-height:90vh;
+min-height:70vh;
 display:flex;
 justify-content:space-between;
 align-items:center;
