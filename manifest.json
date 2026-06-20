@@ -1,7 +1,8 @@
 {
   "name": "QuranicFlow",
   "short_name": "QuranicFlow",
-  "start_url": "/",
+  "start_url": "/Quranic-flow-2.0/",
+  "scope": "/Quranic-flow-2.0/",
   "display": "standalone",
   "background_color": "#081C15",
   "theme_color": "#D4AF37",
