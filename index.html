@@ -37,8 +37,10 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 <div class="logo">
 ☪ QuranicFlow
 </div>
-
-<ul class="nav-links">
+<div class="menu-toggle" onclick="toggleMenu()">
+☰
+</div>
+<ul class="nav-links" id="nav-links">
 <li><a href="#">Home</a></li>
 <li><a href="quran.html">Quran</a></li>
 <li><a href="duas.html">Duas</a></li>
@@ -389,6 +391,10 @@ document.documentElement.scrollTop = 0;
 <script>
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register("sw.js");
+}
+<script>
+function toggleMenu(){
+document.getElementById("nav-links").classList.toggle("active");
 }
 </script>
 </body>
