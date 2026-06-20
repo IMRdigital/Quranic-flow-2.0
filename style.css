@@ -349,3 +349,24 @@ color:white;
 outline:none;
 border:2px solid #D4AF37;
 }
+#topBtn{
+display:none;
+position:fixed;
+bottom:20px;
+right:20px;
+z-index:99;
+border:none;
+outline:none;
+background:#D4AF37;
+color:black;
+cursor:pointer;
+padding:15px 18px;
+border-radius:50%;
+font-size:20px;
+font-weight:bold;
+box-shadow:0 0 15px rgba(212,175,55,.5);
+}
+
+#topBtn:hover{
+transform:scale(1.1);
+}
