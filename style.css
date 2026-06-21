@@ -515,3 +515,11 @@ div[class*="card"]{
     font-weight:bold;
     border-radius:12px;
 }
+.tool-card{
+  background:
+    linear-gradient(rgba(11,18,32,0.85),
+                    rgba(11,18,32,0.85)),
+    url('mosque-bg.jpg');
+  background-size: cover;
+  background-position: center;
+}
