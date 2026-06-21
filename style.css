@@ -456,3 +456,32 @@ body{
   transform: translateY(-3px);
   box-shadow: 0 0 20px rgba(212,175,55,0.4);
 }
+body{
+  background: linear-gradient(135deg,#020617,#0B1220);
+}
+
+.tool-card,
+.card{
+  background: rgba(17,24,39,0.95);
+  border: 1px solid rgba(212,175,55,0.25);
+  border-radius: 25px;
+  box-shadow: 0 0 25px rgba(212,175,55,0.12);
+}
+
+.btn,
+.open-btn{
+  background: linear-gradient(45deg,#D4AF37,#F5E6A8);
+  color:#111827;
+  font-weight:700;
+  border:none;
+}
+
+.logo{
+  color:#D4AF37;
+}
+
+.particle,
+.dot,
+.sparkle{
+  display:none;
+}
