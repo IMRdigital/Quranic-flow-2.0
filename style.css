@@ -439,3 +439,15 @@ box-shadow:
     display:inline-block;
     margin:0 !important;
 }
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.start-reading {
+  display: block;
+  width: fit-content;
+  margin: 15px auto 0;
+}
