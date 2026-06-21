@@ -71,11 +71,11 @@ font-weight:600;
 /* Hero */
 
 .hero{
-min-height:70vh;
+min-height:auto;
 display:flex;
 justify-content:space-between;
 align-items:center;
-padding:50px 10px;
+padding:40px 20px;
 gap:40px;
 }
 
