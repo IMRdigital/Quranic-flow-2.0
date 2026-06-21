@@ -191,17 +191,19 @@ gap:25px;
 }
 
 .tool-card{
-background:#1B4332;
-padding:30px;
-border-radius:20px;
-text-align:center;
-transition:.4s;
-transform-style:preserve-3d;
+    background: linear-gradient(135deg,#111827,#0B1220);
+    padding:30px;
+    border-radius:20px;
+    text-align:center;
+    transition:.4s;
+    transform-style:preserve-3d;
+    border:1px solid rgba(212,175,55,0.25);
+    box-shadow:0 0 25px rgba(212,175,55,0.12);
 }
 
 .tool-card:hover{
-transform:rotateX(8deg) rotateY(8deg);
-box-shadow:0 20px 40px rgba(212,175,55,.2);
+    transform:translateY(-8px);
+    box-shadow:0 15px 40px rgba(212,175,55,0.25);
 }
 
 .tool-card i{
@@ -498,4 +500,18 @@ div[class*="card"]{
 .dot,
 .sparkle{
     display:none !important;
+}
+.tool-card h3{
+    color:white;
+}
+
+.tool-card p{
+    color:#CBD5E1;
+}
+
+.tool-card a{
+    background:linear-gradient(45deg,#D4AF37,#F5E6A8);
+    color:#111827;
+    font-weight:bold;
+    border-radius:12px;
 }
