@@ -32,13 +32,21 @@ body{
 
 .login-box button{
     width:100%;
-    padding:12px;
+    padding:14px;
     border:none;
-    border-radius:10px;
-    background:#22c55e;
-    color:white;
-    font-size:16px;
+    border-radius:15px;
+    background:linear-gradient(135deg,#D4AF37,#F4D03F);
+    color:#381932;
+    font-size:18px;
+    font-weight:700;
     cursor:pointer;
+    box-shadow:0 8px 25px rgba(212,175,55,0.4);
+    transition:all 0.3s ease;
+}
+
+.login-box button:hover{
+    transform:translateY(-3px);
+    box-shadow:0 12px 30px rgba(212,175,55,0.6);
 }
 
 .login-box button:hover{
