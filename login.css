@@ -114,3 +114,38 @@ button:hover {
 p, span {
     color: rgba(255, 243, 230, 0.85);
 }
+/* Premium Gold Login Button */
+
+.login-box button{
+    width:100%;
+    padding:14px;
+    border:none;
+    border-radius:15px;
+    background:linear-gradient(135deg,#D4AF37,#F4D03F);
+    color:#381932;
+    font-size:18px;
+    font-weight:700;
+    cursor:pointer;
+    box-shadow:0 8px 20px rgba(212,175,55,0.4);
+    transition:all 0.3s ease;
+}
+
+/* Hover Effect */
+.login-box button:hover{
+    transform:translateY(-3px);
+    box-shadow:0 12px 30px rgba(212,175,55,0.6);
+}
+
+/* Glow Animation */
+.login-box button{
+    animation:goldGlow 2s infinite alternate;
+}
+
+@keyframes goldGlow{
+    from{
+        box-shadow:0 0 10px rgba(212,175,55,0.4);
+    }
+    to{
+        box-shadow:0 0 25px rgba(212,175,55,0.8);
+    }
+}
