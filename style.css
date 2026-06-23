@@ -571,3 +571,11 @@ h1,h2,h3,h4{
   color:#FFF3E6;
   font-weight:800;
 }
+body{
+  background:#E4FD97;
+}
+
+h1,h2,h3,h4{
+  color:#1E2B1B;
+  font-weight:800;
+}
