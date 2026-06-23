@@ -701,3 +701,23 @@ nav {
     background: #FFF3E6 !important;
     color: #381932 !important;
 }
+body{
+  background: #381932;
+}
+
+.login-container,
+.login-card{
+  background: rgba(255,243,230,0.08);
+  border: 1px solid rgba(255,243,230,0.15);
+}
+
+input{
+  background: #FFF3E6;
+  color: #381932;
+}
+
+.login-btn,
+button{
+  background: #FFF3E6;
+  color: #381932;
+}
