@@ -681,3 +681,23 @@ button:hover {
 p, span {
     color: rgba(255, 243, 230, 0.85);
 }
+/* Header/Navbar Fix */
+
+header,
+.navbar,
+nav {
+    background: #381932 !important;
+}
+
+/* Logo */
+.logo,
+.logo a {
+    color: #FFF3E6 !important;
+}
+
+/* Login Button */
+.login-btn,
+.login-button {
+    background: #FFF3E6 !important;
+    color: #381932 !important;
+}
