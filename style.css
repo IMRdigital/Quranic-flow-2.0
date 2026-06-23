@@ -579,3 +579,50 @@ h1,h2,h3,h4{
   color:#1E2B1B;
   font-weight:800;
 }
+/* Global Colors */
+
+body {
+    background-color: #FFF3E6;
+    color: #381932;
+}
+
+/* All Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #381932 !important;
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+
+/* Logo */
+.logo {
+    color: #381932 !important;
+}
+
+/* Navbar Links */
+nav a,
+.nav-links a {
+    color: #381932 !important;
+}
+
+/* Cards */
+.card,
+.feature-card,
+.dua-card,
+.hadith-card {
+    background: #FFFFFF;
+    color: #381932;
+    border: 1px solid rgba(56, 25, 50, 0.1);
+}
+
+/* Buttons */
+.btn,
+button {
+    background: #381932;
+    color: #FFF3E6;
+    border: none;
+}
+
+.btn:hover,
+button:hover {
+    opacity: 0.9;
+}
