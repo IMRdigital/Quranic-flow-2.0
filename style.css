@@ -523,3 +523,43 @@ div[class*="card"]{
   background-size: cover;
   background-position: center;
 }
+/* Website Background */
+body {
+    background: #E4FD97;
+    color: #1a1a1a;
+}
+
+/* All Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #1a1a1a;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Cards */
+.card, .feature-card {
+    background: rgba(255,255,255,0.4);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 20px;
+}
+
+/* Navbar */
+.navbar {
+    background: rgba(228, 253, 151, 0.9);
+    backdrop-filter: blur(15px);
+}
+
+/* Buttons */
+.btn, button {
+    background: #1a1a1a;
+    color: #E4FD97;
+    border: none;
+    border-radius: 12px;
+    font-weight: 700;
+}
+
+.btn:hover, button:hover {
+    transform: translateY(-3px);
+}
