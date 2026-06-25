@@ -1,3 +1,4 @@
+const API_KEY = "";
 const chatBox = document.getElementById("chatBox");
 const input = document.getElementById("userInput");
 const sendBtn = document.getElementById("sendBtn");
